@@ -40,7 +40,7 @@
 <script type="text/javascript" src="scripts/gestioni.tabelle.js"></script>
 <?php
 $title = 'SUPER_CP';
-$server = $_SERVER['SERVER_ADDR'];
+$server = $_SERVER['REMOTE_ADDR'];
 	if ($server == '127.0.0.1')
 			{
 				$title = 'LOCAL SUPER_CP';

@@ -21,7 +21,7 @@ class CONNECT
 		{
 			//  settando a "null" $pos si connette sempre con esterno
 			$pos = '127.0.0.1';		//local database
-			$server = $_SERVER['SERVER_ADDR'];
+			$server = $_SERVER['REMOTE_ADDR'];
 				if ($server == $pos)
 					{
 						$this->nomehost = $this->conn[3];
