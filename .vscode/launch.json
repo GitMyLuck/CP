@@ -13,7 +13,7 @@
                 "-S",
                 "127.0.0.1:84",
                 "-t",
-                "C:\\Users\\Giovanni\\Desktop\\CP\\ControlPanel"
+                "C:\\Users\\Giovanni\\Desktop\\CP"
             ],
             "port": 9003,
             "serverReadyAction": {
